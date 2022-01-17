@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        app:autoFocusButtonColor="@android:color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="true"
+        app:frameAspectRatioHeight="1"
+        app:frameAspectRatioWidth="1"
+        app:frameColor="@android:color/white"
+        app:frameCornersRadius="0dp"
+        app:frameCornersSize="50dp"
+        app:frameSize="0.75"
+        app:frameThickness="2dp"
+        app:maskColor="#77000000" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanner_view"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@android:drawable/ic_menu_recent_history" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanner_view"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/imageView5"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanner_view"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/textView"
+        android:text="Occuper" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:text="Salle:" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/textView2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="-142dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/textView3"
+        android:text="Bloc:" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@id/textView4"
+        android:text="TextView" />
+
+
+</RelativeLayout>
+
+
